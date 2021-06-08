@@ -1,0 +1,59 @@
+
+body
+{
+  padding: 0px;
+  margin: 40px 10px 10px 40px;
+}
+@font-face
+{
+  font-family: Vanilla_Latte;
+  src: url(Vanilla_Latte.ttf);
+}
+*
+{
+  /*padding: 0px;
+  margin: 0px;
+  font-family: Vanilla_Latte;*/
+}
+.main-text
+{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding: 30px;
+}
+.box
+{
+  background-color: rgba(56, 192, 255, 1);
+  padding: 40px;
+  border-radius: 10px;
+  border: white 10px;
+}
+.container h1, p, h2, h3, a
+{
+    color: rgba(0, 0, 0, 1);
+}
+.container
+{
+
+}
+.box img
+{
+  max-width: 100%;
+  height: auto;
+}
+.noline
+{
+  text-decoration: none;
+}
+.list-places
+{
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding: 10px;
+  border: red ridge 10px;
+  background-color: rgba(204, 0, 0, 1);
+}
